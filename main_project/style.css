@@ -24,13 +24,13 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav_links {
+.nav-links {
     list-style: none;
     display: flex;
     font-size: 18px;
 }
 
-.nav_links li, a {
+.nav-links li, a {
     color: #e5e7eb;
     text-decoration: none;
     padding: 0px 20px;
@@ -39,26 +39,26 @@ header {
 /* Navigation Ends */
 
 /* Hero Section */
-.hero_section {
+.hero-section {
     display: flex;
     justify-content: space-around;
     background: #1f2937;
     height: 40vh;
 }
 
-.left_hero_section {
+.left-hero-section {
     max-width: 400px;
     height: fit-content;
 }
 
-.left_hero_section h1 {
+.left-hero-section h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-.left_hero_section p {
+.left-hero-section p {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 18px;
@@ -66,7 +66,7 @@ header {
     margin-bottom: 10px;
 }
 
-.left_hero_section button {
+.left-hero-section button {
     background-color: #3882f6;
     padding: 5px;
     width: 100px;
@@ -77,39 +77,39 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-.left_hero_section button:hover {
+.left-hero-section button:hover {
     transform: scale(80%);
 }
 
-.right_hero_section {
+.right-hero-section {
     width: 32%;
     height: 60%;
 }
 
-.right_hero_section img {
+.right-hero-section img {
     width: 400px;
     height: 230px;
 }
 /* Hero section ends */
 
 /* Information Section */
-.information_section {
+.information-section {
     margin-top: 30px;
 }
 
-.information_section h3 {
+.information-section h3 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
 
-.card_div {
+.card-div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card_div img {
+.card-div img {
     width: 100px;
     height: 100px;
     border-radius: 8px;
@@ -133,13 +133,13 @@ figcaption {
 /* Information section ends */
 
 /* Quote Section */
-.quote_section {
+.quote-section {
     width: 100%;
     height: 50vh;
     background: #e5e7eb;
 }
 
-.quote_text p {
+.quote-text p {
     position: relative;
     width: 780px;
     font-family: 'Roboto', sans-serif;
@@ -147,11 +147,11 @@ figcaption {
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
-    margin: 0 330px;
+    margin: 0 350px;
     padding-top: 30px;
 }
 
-.quote_section span {
+.quote-section span {
     font-size: 20px;
     position: absolute;
     top: 250px;
@@ -163,7 +163,7 @@ figcaption {
 /* Quote section ends */
 
 /* Call to action section */
-.call_to_action {
+.call-to-action {
     color: #fff;
     margin: 50px 0;
     background: #3882f6;
@@ -177,8 +177,7 @@ figcaption {
     font-family: 'Roboto', sans-serif;
 }
 
-
-.right_call_to_action button {
+.right-call-to-action button {
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
@@ -189,7 +188,7 @@ figcaption {
     font-family: 'Roboto', sans-serif;
 }
 
-.right_call_to_action button:hover {
+.right-call-to-action button:hover {
     background: white;
     color: black;
 }
