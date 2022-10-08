@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(./fonts/Roboto/Roboto-Black.ttf) format('truetype');
+}
+
 /* Navigation */
 header {
     display: flex;
@@ -16,6 +21,7 @@ header {
     margin-right: auto;
     font-size: 24px;
     color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav_links {
@@ -28,6 +34,7 @@ header {
     color: #e5e7eb;
     text-decoration: none;
     padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
 }
 /* Navigation Ends */
 
@@ -45,12 +52,15 @@ header {
 }
 
 .left_hero_section h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
 .left_hero_section p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 10px;
@@ -64,6 +74,7 @@ header {
     border: none;
     outline: none;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 
 .left_hero_section button:hover {
@@ -88,6 +99,8 @@ header {
 
 .information_section h3 {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 .card_div {
@@ -115,19 +128,21 @@ figure>img:hover {
 figcaption {
     width: 100px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 /* Information section ends */
 
-/* Testimonial Section */
-.testimonial_section {
+/* Quote Section */
+.quote_section {
     width: 100%;
     height: 50vh;
     background: #e5e7eb;
 }
 
-.testimonial_text p {
+.quote_text p {
     position: relative;
     width: 780px;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
@@ -136,14 +151,16 @@ figcaption {
     padding-top: 30px;
 }
 
-.testimonial_section span {
+.quote_section span {
     font-size: 20px;
     position: absolute;
     top: 250px;
     left: 600px;
-    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
 }
-/* Testimonial section ends */
+/* Quote section ends */
 
 /* Call to action section */
 .call_to_action {
@@ -157,6 +174,7 @@ figcaption {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -168,6 +186,7 @@ figcaption {
     width: 100px;
     border-radius: 8px;
     outline: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .right_call_to_action button:hover {
@@ -186,6 +205,7 @@ footer {
 
 footer p {
     transform: translateY(50%);
+    font-family: 'Roboto', sans-serif;
 }
 /* Footer Ends */
 
