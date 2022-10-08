@@ -107,6 +107,11 @@ figure {
     margin: 20px;
 }
 
+figure>img:hover {
+    transform: scale(120%);
+    padding-bottom: 5px;
+}
+
 figcaption {
     width: 100px;
     text-align: center;
